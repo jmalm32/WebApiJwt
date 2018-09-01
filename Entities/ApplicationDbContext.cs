@@ -15,7 +15,7 @@ namespace WebApiJwt.Entities
         {
             const string databaseName = "webapijwt";
             const string databaseUser = "root";
-            const string databasePass = "1";
+            const string databasePass = "";
             
             return $"Server=localhost;" +
                    $"database={databaseName};" +
